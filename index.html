@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Generated Website</title>
+</head>
+<body>
+<div class="general-content" style="padding: 20px; background-color: #f9f9f9;">
+    <!-- Hero Section -->
+    <section class="hero" style="text-align: center; margin-bottom: 30px;">
+        <h1 style="font-size: 2.5em; color: #ff0000;">FILM ROLL</h1>
+        <p style="font-size: 1.2em; color: #333;">The next dimension in storytelling</p>
+        <img src="channel-logo-url.jpg" alt="Film Roll Logo" style="width: 150px; border-radius: 10px; margin-top: 10px;">
+        <button style="padding: 10px 20px; background-color: #ff0000; border: none; color: white; border-radius: 5px; cursor: pointer; margin-top: 15px;">
+            <a href="https://www.youtube.com/channel/CHANNEL_ID?sub_confirmation=1" style="text-decoration: none; color: white;">Subscribe</a>
+        </button>
+    </section>
+
+    <!-- Statistics Section -->
+    <section class="statistics" style="display: flex; justify-content: space-around; margin-bottom: 30px;">
+        <div style="text-align: center;">
+            <h3 style="color: #ff0000;">Subscribers</h3>
+            <p style="font-size: 1.5em; color: #333;">1,230,000</p>
+        </div>
+        <div style="text-align: center;">
+            <h3 style="color: #ff0000;">Total Views</h3>
+            <p style="font-size: 1.5em; color: #333;">256,055,677</p>
+        </div>
+        <div style="text-align: center;">
+            <h3 style="color: #ff0000;">Video Count</h3>
+            <p style="font-size: 1.5em; color: #333;">1,117</p>
+        </div>
+    </section>
+
+    <!-- Latest Videos Section -->
+    <section class="video-gallery" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 20px;">
+        <h2 style="text-align: center; color: #333; margin-bottom: 20px;">Latest Videos</h2>
+        <div class="video" style="position: relative;">
+            <iframe width="100%" height="150" src="https://www.youtube.com/embed/VIDEO_ID1" frameborder="0" allowfullscreen></iframe>
+            <p style="text-align: center; color: #333;">Video Title 1</p>
+        </div>
+        <div class="video" style="position: relative;">
+            <iframe width="100%" height="150" src="https://www.youtube.com/embed/VIDEO_ID2" frameborder="0" allowfullscreen></iframe>
+            <p style="text-align: center; color: #333;">Video Title 2</p>
+        </div>
+        <!-- Repeat similar blocks for more videos -->
+    </section>
+
+    <!-- About Section -->
+    <section class="about" style="margin-top: 30px; text-align: center;">
+        <h2 style="color: #333;">About This Channel</h2>
+        <p style="color: #555;">This is film roll... கதை சொல்வதில் அடுத்த பரிமாணம்🔥</p>
+        <p style="color: #555;">வெறும் கதை மட்டும் சொல்லாமல் உங்கள அந்த கதைக்குள்ளேயே கொண்டு போகப் போகிறேன்</p>
+    </section>
+    
+    <!-- Contact Section -->
+    <section class="contact" style="text-align: center; margin-top: 30px;">
+        <h2 style="color: #333;">Get In Touch</h2>
+        <p style="color: #555;">Follow us on our social media!</p>
+        <a href="https://www.facebook.com/your-channel" style="margin: 0 10px; color: #ff0000;">Facebook</a>
+        <a href="https://twitter.com/your-channel" style="margin: 0 10px; color: #ff0000;">Twitter</a>
+        <a href="https://www.instagram.com/your-channel" style="margin: 0 10px; color: #ff0000;">Instagram</a>
+    </section>
+</div>
+
+<style>
+    .hero h1 {
+        transition: transform 0.3s;
+    }
+    
+    .hero h1:hover {
+        transform: scale(1.05);
+    }
+
+    .statistics div {
+        border: 2px solid #ff0000;
+        border-radius: 10px;
+        padding: 15px;
+        background-color: white;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s;
+    }
+
+    .statistics div:hover {
+        transform: scale(1.05);
+    }
+    
+    .video {
+        border-radius: 10px;
+        overflow: hidden;
+        box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        transition: all 0.3s ease;
+    }
+
+    .video:hover {
+        transform: translateY(-5px);
+    }
+    
+    @media (max-width: 768px) {
+        .statistics {
+            flex-direction: column;
+        }
+    }
+</style>
+</body>
+</html>
