@@ -1,6 +1,6 @@
 # FILM-ROLL-website-1749723583868
 
-AI-generated website for FILM ROLL
+AI-generated website for FILM ROLL with real-time features
 
 ## 🚀 Project Overview
 
@@ -62,7 +62,7 @@ This is film roll
 
 
 ### Styling Approach
-
+- **Color Palette**: 
 - **Responsive Design**: Mobile-first approach
 - **Typography**: Professional and readable fonts
 - **Animations**: Smooth transitions and hover effects
