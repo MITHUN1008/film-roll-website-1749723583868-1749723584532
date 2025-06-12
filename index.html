@@ -6,74 +6,50 @@
 <title>Generated Website</title>
 </head>
 <body>
-<!-- General Content Component -->
+<!-- general-content Component -->
 <div class="general-content">
-    <section class="hero">
-        <div class="hero-content">
-            <h1>Welcome to Film Roll</h1>
-            <p>The next dimension in storytelling</p>
-            <p>கதை சொல்வதில் அடுத்த பரிமாணம்🔥</p>
-            <button class="subscribe-btn">Subscribe</button>
+    <div class="channel-header" style="background: linear-gradient(135deg, #ff6f61, #ffcc33); padding: 20px; text-align: center; border-radius: 8px; color: white;">
+        <img src="your-channel-logo-url" alt="FILM ROLL Logo" class="channel-logo" style="width: 120px; border-radius: 50%; border: 3px solid white;">
+        <h1 style="margin: 10px 0; font-family: 'Arial', sans-serif;">FILM ROLL</h1>
+        <p style="font-size: 16px; font-weight: 300;">The next dimension in storytelling <br> கதை சொல்வதில் அடுத்த பரிமாணம்🔥</p>
+        <div class="channel-stats" style="display: flex; justify-content: center; gap: 20px; margin-top: 15px;">
+            <div style="padding: 10px; background: rgba(255, 255, 255, 0.8); border-radius: 5px;">
+                <strong>Subscribers:</strong> 1,230,000
+            </div>
+            <div style="padding: 10px; background: rgba(255, 255, 255, 0.8); border-radius: 5px;">
+                <strong>Videos:</strong> 1,117
+            </div>
+            <div style="padding: 10px; background: rgba(255, 255, 255, 0.8); border-radius: 5px;">
+                <strong>Total Views:</strong> 256,055,677
+            </div>
         </div>
-        <div class="hero-image">
-            <img src="images/channel-logo.png" alt="Film Roll Channel Logo" class="channel-logo">
-        </div>
-    </section>
+    </div>
 
-    <section class="statistics">
-        <h2>Channel Statistics</h2>
-        <div class="stats-grid">
-            <div class="stat-item">
-                <h3>Subscribers</h3>
-                <p>1,230,000</p>
-            </div>
-            <div class="stat-item">
-                <h3>Total Videos</h3>
-                <p>1,117</p>
-            </div>
-            <div class="stat-item">
-                <h3>Total Views</h3>
-                <p>256,055,677</p>
-            </div>
+    <div class="latest-videos" style="margin-top: 40px; display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 15px;">
+        <h2 style="text-align: center; color: #ff6f61;">Latest Videos</h2>
+        <!-- Example video embeds -->
+        <div class="video" style="border-radius: 8px; overflow: hidden; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);">
+            <iframe src="https://www.youtube.com/embed/YOUR_VIDEO_ID" frameborder="0" allowfullscreen style="width: 100%; height: 150px;"></iframe>
         </div>
-    </section>
-
-    <section class="latest-videos">
-        <h2>Latest Videos</h2>
-        <div class="video-gallery">
-            <div class="video-item">
-                <iframe src="https://www.youtube.com/embed/video-id-1" frameborder="0" allowfullscreen></iframe>
-                <p>Video Title 1</p>
-            </div>
-            <div class="video-item">
-                <iframe src="https://www.youtube.com/embed/video-id-2" frameborder="0" allowfullscreen></iframe>
-                <p>Video Title 2</p>
-            </div>
-            <div class="video-item">
-                <iframe src="https://www.youtube.com/embed/video-id-3" frameborder="0" allowfullscreen></iframe>
-                <p>Video Title 3</p>
-            </div>
-            <div class="video-item">
-                <iframe src="https://www.youtube.com/embed/video-id-4" frameborder="0" allowfullscreen></iframe>
-                <p>Video Title 4</p>
-            </div>
+        <div class="video" style="border-radius: 8px; overflow: hidden; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);">
+            <iframe src="https://www.youtube.com/embed/YOUR_VIDEO_ID" frameborder="0" allowfullscreen style="width: 100%; height: 150px;"></iframe>
         </div>
-    </section>
+        <!-- Add more video embeds as needed -->
+    </div>
 
-    <section class="about">
-        <h2>About Film Roll</h2>
-        <p>We don't just tell stories, we take you into the heart of the narrative.</p>
-    </section>
-
-    <section class="contact">
-        <h2>Stay Connected</h2>
-        <p>Follow us on:</p>
-        <div class="social-links">
-            <a href="https://youtube.com/channel-id" target="_blank">YouTube</a>
-            <a href="https://instagram.com/channel-id" target="_blank">Instagram</a>
-            <a href="https://twitter.com/channel-id" target="_blank">Twitter</a>
+    <div class="subscribe-section" style="text-align: center; margin-top: 40px;">
+        <a href="https://www.youtube.com/channel/YOUR_CHANNEL_ID" target="_blank" style="padding: 12px 24px; background: #ff6f61; color: white; text-decoration: none; border-radius: 5px; font-size: 18px; transition: background 0.3s;">Subscribe Now</a>
+        <div class="social-links" style="margin-top: 20px;">
+            <a href="https://twitter.com/YOUR_TWITTER" target="_blank" class="social-icon" style="margin: 0 10px;">
+                <img src="twitter-icon-url" alt="Twitter" style="width: 30px;">
+            </a>
+            <a href="https://facebook.com/YOUR_FACEBOOK" target="_blank" class="social-icon" style="margin: 0 10px;">
+                <img src="facebook-icon-url" alt="Facebook" style="width: 30px;">
+            </a>
+            <!-- More social links if needed -->
         </div>
-    </section>
+    </div>
 </div>
+<!-- End of general-content Component -->
 </body>
 </html>
